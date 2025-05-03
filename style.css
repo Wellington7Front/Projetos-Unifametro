@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body {
+
+    backdrop-filter: blur(5px);
+    background-position: center; 
+    background-size: cover;/*aqui fica imagem*/
+    background-image: url(pexels-kampus-8353786.jpg);
+    margin: 0px
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    
+}
+.item {
+    width: 300px;
+    height: 350px;
+    background: #ffffffdc;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 15px 10px black;
+    
+}
+.btn{
+    
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width: 150px;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 20px  rgb(49, 56, 150);
+    transition: 0.5s;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+span{
+    color: rgb(49, 56, 150);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.m1{
+    width: 500px;
+    margin-right: 620px;
+    display: grid;
+    position:fixed;
+    filter: drop-shadow( 15px 45px 10px black);
+}
+
+input{
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 13px;
+    border: none;
+    box-shadow: 0px 0px 0px 1px black;
+}
