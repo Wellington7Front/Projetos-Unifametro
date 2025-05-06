@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
         </style>
-         <link rel="stylesheet" href="pasta.css/pag2.css">
+
+         <link rel="stylesheet" href="pag2.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Login OnBank</title>
 </head>
 <body>
 
     <div class="container">
         <div class="item2">
-         <h1><span>Login</span></h1>
+         <h1>Log<span>in</span></h1>
          
-         <input type="password" id="senha1" placeholder=""><br>
-         <input type="password" id="senha2" placeholder="Senha"><br>
-         <input type="password" id="senha_mestre" placeholder="Senha Mestre"><br>
+         <input type="checkbox" name="idade" id="maior" value="+18">
+         <label for="+18">18 anos ou mais</label>
+
+         <input type="checkbox" name="idade" id="menor" value="-18">
+         <label for="idade">Menor que 18 anos</label>
+
+         <br><br>
+         <input class="senha2" type="password" id="senha2" placeholder="Digite sua senha"><br>
+
+         <input class="mestre" type="password" id="senha_mestre" placeholder="Sua senha mestre"><br>
        
          
-<br><br>
-<button class="btn" onclick="login()">Entrar</button>
+<br>
+<button class="btn" onclick="login()">Login</button>
          
         </div>
     </div>
